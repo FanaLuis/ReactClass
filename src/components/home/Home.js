@@ -90,30 +90,11 @@ const StyledCard = styled.div`
 const Home = () => {
   return (
     <StyledCard>
-      <div className="card-image">
+      <div className="card-image border p-4">
         <img
-          src="https://cdn.dribbble.com/users/2400293/screenshots/16527147/media/f079dc5596a5fb770016c4ea506cd77b.png?compress=1&resize=1000x750&vertical=center"
+          src="https://cdn.tgdd.vn/Products/Images/44/301634/hp-15s-fq2716tu-i3-7c0x3pa-thumb-600x600.jpg"
           alt=""
         />
-      </div>
-      <div className="card-content">
-        <div className="card-top">
-          <div className="card-user">
-            <img
-              className="user-avatar"
-              src="https://cdn.dribbble.com/users/2400293/screenshots/16527147/media/f079dc5596a5fb770016c4ea506cd77b.png?compress=1&resize=1000x750&vertical=center"
-              alt=""
-            />
-            <span className="username">@ahakdaj</span>
-          </div>
-          <div className="card-icon">
-            <img src="/icon-heart.svg" alt="heart" />
-          </div>
-        </div>
-        <div className="card-footer">
-          <div className="card-title">Cosmic Perestional</div>
-          <div className="card-ammount">12,000 PLS</div>
-        </div>
       </div>
     </StyledCard>
   );

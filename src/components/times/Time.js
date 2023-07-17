@@ -7,7 +7,7 @@ function gettime() {
 console.log(gettime);
 const Time = () => {
     return ( 
-    <div className='time'>
+    <div className='time '>
         <h3>{gettime()}</h3>
     </div>
 
