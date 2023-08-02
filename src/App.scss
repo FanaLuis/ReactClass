@@ -72,3 +72,50 @@ img{
     transform: rotate(360deg);
   }
 }
+/* App.scss */
+
+/* Thêm một số kiểu chung cho toàn bộ ứng dụng */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Căn giữa phần tử .image-list */
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Tuỳ chỉnh style cho từng ảnh */
+.image-list img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Căn giữa phần tử .search-bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Tuỳ chỉnh style cho input */
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Tuỳ chỉnh style cho label */
+.search-bar label {
+  margin-right: 10px;
+  font-weight: bold;
+}
